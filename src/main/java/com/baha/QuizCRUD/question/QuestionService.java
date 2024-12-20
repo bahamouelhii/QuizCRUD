@@ -37,13 +37,9 @@ public class QuestionService {
     }
 
     public String saveQuestion(Question question) {
-
-            // Insertion de la nouvelle question
             questionRepository.save(question);
             return "Question added!";
         }
-
-
 
     public String saveQuestion(int id, Question updatedQuestion) {
 

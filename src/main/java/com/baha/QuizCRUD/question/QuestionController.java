@@ -14,7 +14,7 @@ public class QuestionController {
 
     @GetMapping("allQuestions")
     public List<Question> getAllQuestions() {
-        return questionService.getAllQuestions();
+                return questionService.getAllQuestions();
     }
 
     @GetMapping("/id/{id}")
@@ -30,7 +30,7 @@ public class QuestionController {
 
     @PostMapping("/new")
     public String addQuestions(@RequestBody Question question) {
-         return questionService.saveQuestion(question);
+        return questionService.saveQuestion(question);
     }
 
     @DeleteMapping("/delete/{id}")
