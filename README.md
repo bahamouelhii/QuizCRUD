@@ -7,7 +7,7 @@ API REST pour la gestion des questions et des quiz.
 - CRUD pour les quiz et les questions.
 
 ## Installation
-1. Clonez ce dépôt : `git clone https://github.com/ton-pseudo/quizcrud.git`
+1. Clonez ce dépôt : `git clone https://github.com/bahamouelhii/quizcrud.git`
 2. Construisez le projet avec `mvn clean install`.
 3. Lancez l'application avec `mvn spring-boot:run`.
 
